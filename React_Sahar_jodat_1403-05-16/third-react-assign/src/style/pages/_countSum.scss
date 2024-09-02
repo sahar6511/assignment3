@@ -1,0 +1,12 @@
+
+.count-sum-container{
+    @include flex-spacebetween;
+    margin: 10px auto;
+    width: 40%;
+     div{
+        background-color: #8bbbe6;
+        padding: 10px;
+        border-radius: 5px;
+      }
+     }
+

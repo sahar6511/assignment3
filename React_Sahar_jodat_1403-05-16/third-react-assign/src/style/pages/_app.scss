@@ -1,0 +1,34 @@
+.all-stages-container{
+    @include column-flex
+}
+.A-B-C-container{
+    @include flex;
+    gap:5px;
+    div{
+        border: 1px solid #ddd;
+        text-align: center;
+        border-radius: 10px;
+    }
+}
+.D-container{
+    border: 1px solid #ddd;
+    text-align: center;
+    border-radius: 10px;
+    width: 60%;
+}
+.main-div{
+    width: 70%;
+    margin: 10px auto;
+}
+
+.stage{
+    background-color: #5151e6;
+  color: #b0b0d0;
+  width: 50%;
+  padding: 30px;
+  text-align: center;
+  margin: 10px auto;
+  font-weight: bold;
+  font-size: 2rem;
+  border-radius: 10px;
+}
